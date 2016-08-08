@@ -19,7 +19,7 @@ docker build . -t lighttpd_cgit
 
 If you are planning to use existing image on hub.docker.com, try to get the image via pull (to check if you are able to get it)
 ```
-docker pull sudhan/lighttpd_cgit
+docker pull sudhan/lighttpd-cgit
 ```
 To successfully use the image, you will need to:
    1. Point the container port to some valid host port
@@ -29,7 +29,7 @@ To successfully use the image, you will need to:
 ## Running the image
 Assuming this is all done, run the image as follows. This example assumes that there is a cgitrepos file in /tmp and /tmp/localrepos has the repositories to display.
 ```
-docker run -v /tmp/localrepos:/var/git -v /tmp/cgitrepos:/etc/cgitrepos -p 8888:80 -d lighttpd_cgit
+docker run -v /tmp/localrepos:/var/git -v /tmp/cgitrepos:/etc/cgitrepos -p 8888:80 -d sudhan/lighttpd-cgit
 ```
 As a sample, the above command uses /tmp/cgitrepos that contains the following:
 
