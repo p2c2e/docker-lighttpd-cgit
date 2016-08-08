@@ -1,0 +1,12 @@
+css=/cgit/cgit.css
+logo=/cgit/cgit.png
+enable-git-config=1
+
+repo.group=Sample group
+
+repo.url=Sample Repo
+repo.path=/var/git/sample.git
+repo.desc=This is a sample bare repository. Define yours by placing the files by overriding /var/git volume and replacing the /etc/cgitrepos file.
+
+include /etc/cgitrepos
+
