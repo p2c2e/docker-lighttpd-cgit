@@ -1,0 +1,4 @@
+# Non bare repo - hence pointing explicitly to .git folder. Read the cgit docs.
+repo.url=My Repo 1
+repo.path=/var/git/myrepo/.git
+repo.desc=This repo is at /tmp/localrepos/myrepo in local machine. It is a normal (non-bare) repo
