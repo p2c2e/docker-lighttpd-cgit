@@ -2,6 +2,8 @@ This repo contains files to create your own Docker image consisting of lighttpd 
 
 Usually, you would just need to point and use the docker image uploaded to github. Use "sudhan/lighttpd_cgit" image.
 
+NOTE: The docker automated build is now setup on docker hub.
+
 # How to build the Docker image
 
 Clone and build:
